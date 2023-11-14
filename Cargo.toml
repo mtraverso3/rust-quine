@@ -1,0 +1,18 @@
+[package]
+name = "quine"
+version = "0.1.0"
+edition = "2021"
+
+
+[[bin]]
+name = "quine"
+path = "src/quine.rs"
+
+[[bin]]
+name = "hashquine"
+path = "src/hashquine.rs"
+
+
+[dependencies]
+sha256 = "1.4.0"
+
